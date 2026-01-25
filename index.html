@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Sublimación</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #6c63ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        header p {
+            margin-top: 8px;
+        }
+
+        .contenedor {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .producto {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .producto:hover {
+            transform: translateY(-5px);
+        }
+
+        .producto img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 18px;
+        }
+
+        .info h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+        }
+
+        .info p {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .precio {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #6c63ff;
+            margin: 15px 0;
+        }
+
+        .boton {
+            display: block;
+            text-align: center;
+            background-color: #25d366;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background-color: #1ebc59;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sublimaciones J<sup>2</sup></h1>
+    <p>El doble de creatividad en cada detalle</p>
+</header>
+
+<section class="contenedor">
+
+    <div class="producto">
+        <img src="amistad1.jpg" alt="Taza sublimada">
+        <div class="info">
+            <h2>Taza personalizada</h2>
+            <p>Taza blanca sublimada con el diseño que tú quieras.</p>
+            <div class="precio">$60 MXN</div>
+            <a class="boton" href="https://wa.me/529933778721" target="_blank">Pedir por WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="producto">
+        <img src="47.jpg" alt="Playera sublimada">
+        <div class="info">
+            <h2>Playera personalizada</h2>
+            <p>Playera de poliéster ideal para sublimación.</p>
+            <div class="precio">$120 MXN</div>
+        <div class="precio">(solo estampado) $30 MXN</div>
+            <a class="boton" href="https://wa.me/529933778721" target="_blank">Pedir por WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="producto">
+      <img src="m.png" alt="Catálogo completo">
+        <div class="info">
+          <h2>Catálogo completo</h2>
+            <p>Explora todos nuestros productos disponibles para                sublimación.</p>
+          <div class="precio">Ver más</div>
+            <a class="boton" href="catalogo.html">Ver catálogo</a>
+          </div>
+        </div>
+      </div>
+
+</section>
+
+<footer>
+    <p>© 2026 · Emprendimiento de Sublimación</p>
+</footer>
+
+</body>
+</html>
